@@ -1,0 +1,442 @@
+﻿/** 
+* Table of Contents
+* 
+* 1.0 - Basic Structure
+* 2.0 - Shortcodes
+*       2.1 - Dropcap
+*       2.2 - Pushquote
+*       2.3 - Pullquote        
+*       2.4 - Buttons
+*       2.5 - Google Map
+*       2.6 - Lists
+* 3.0 - Page Title        
+* 4.0 - Breadcrumbs
+* 5.0 - Header
+* 6.0 - Posts-Pages
+*       6.1 - Posts/Pages Containers
+*       6.2 - Posts/Pages Social Sharing    
+*       6.3 - Posts/Pages Meta Info
+* 7.0 - Author-Bio Info
+* 8.0 - Comments
+* 9.0 - Comments Form
+* 10.0 - Posts/Pages Paging Navigation
+* 11.0 - Widgets
+*        11.1 - Widgets List Items
+*        11.2 - Tagcloud Widget
+*        11.3 - Instagram Widget
+*        11.4 - Twitter Widget
+*        11.5 - RSS Feed Widget
+*        11.6 - Related Posts Widget
+*        11.7 - Calendar Widget
+* 12.0 - Dropmenu Navigation    
+* 13.0 - Scroll-up Arrow Link
+* -----------------------------------------------------------------------------
+*/
+
+/**
+* 1.0 Basic Structure
+* -----------------------------------------------------------------------------
+*/
+html, body {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+}
+
+/**
+* 2.0 Shortcodes
+* -----------------------------------------------------------------------------
+*/
+/**
+* 2.1 Dropcap
+* -----------------------------------------------------------------------------
+*/
+.dropcap {
+    float: right;
+    margin: 8px 0 0 15px;
+}
+
+/**
+* 2.2 Pushquote
+* -----------------------------------------------------------------------------
+*/
+.pushquote {
+    float: left;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+/**
+* 2.3 Pullquote
+* -----------------------------------------------------------------------------
+*/
+.pullquote {
+    float: right;
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+/**
+* 2.4 Buttons
+* -----------------------------------------------------------------------------
+*/
+.btn i {
+    margin-left: 5px;
+}
+
+/**
+* 2.5 Google Map
+* -----------------------------------------------------------------------------
+*/
+.map-container .map-info-content .list-unstyled ul {
+    margin-right: 10px;
+}
+
+/**
+* 2.6 Lists
+* -----------------------------------------------------------------------------
+*/
+.list-fa li:before {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/**
+* 3.0 Page Title
+* -----------------------------------------------------------------------------
+*/
+
+#page-header h1.page-title {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/**
+* 4.0 Breadcrumbs
+* -----------------------------------------------------------------------------
+*/
+#breadcrumbs .breadcrumb > li + li::before {
+    content: "";
+}
+
+#breadcrumbs .breadcrumb > li + li::after {
+    font-family: 'FontAwesome';
+    content: "\f100";
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+/**
+* 5.0 Header
+* -----------------------------------------------------------------------------
+*/
+#header .nav-search-bar {
+    left: 0px;
+    right: auto;
+}
+
+#header .nav-search-bar .navbar-toggle {
+    float: left;
+}
+
+#search-box {
+    left: 0px;
+}
+
+#search-box .pull-left {
+    float: right !important;
+}
+
+.nav-pills > li {
+    float: none;
+}
+
+.nav-dropdown-menu > .nav li li, .nav-dropdown-menu .nav > li > a, .navbar-large .nav-dropdown-menu .nav > li > a, .mobile.nav-dropdown-menu .nav > li > a, .navbar-large .mobile.nav-dropdown-menu .nav > li > a {
+    text-align: right;
+}
+
+#header .logo .logo-text span {
+    margin-right: 0px;
+    margin-left: 6px;
+}
+
+#header .logo .logo-text.pull-left, #header .logo .logo-image.pull-left, #header .logo .logo-tagline.pull-left {
+    float: right !important;
+}
+
+#header .logo .logo-tagline {
+    border: 0;
+    border-right: 1px solid #ffffff;
+    padding-left: 0px;
+    padding-right: 12px;
+}
+
+@media (max-width: 992px) {
+    #header .logo .logo-text, #header .logo .logo-text a {
+        text-align: right;
+    }
+
+    #header .logo .logo-image {
+        text-align: right;
+    }
+}
+
+/**
+* 6.0 Posts-Pages
+* -----------------------------------------------------------------------------
+*/
+/**
+* 6.1 Posts/Pages Containers
+* -----------------------------------------------------------------------------
+*/
+#primary {
+}
+
+/**
+* 6.2 Posts/Pages Social Sharing
+* -----------------------------------------------------------------------------
+*/
+.post .post-social ul {
+    padding-right: 0;
+}
+
+.post .post-social li {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/**
+* 6.3 Posts/Pages Meta Info
+* -----------------------------------------------------------------------------
+*/
+.post .entry-meta-part .meta-post-type {
+    left: 0;
+    right: auto;
+}
+
+.post .entry-meta-part .meta-post-type .arrow {
+    left: auto;
+    right: 0;
+    border: 8px solid #111;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left: 0;
+}
+
+.post .post-entry .entry-meta span[class^="fa fa-"], .post .post-entry .entry-meta span[class^="glyphicon glyphicon-"] {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.post .post-entry .entry-meta span.meta {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.post .post-entry .entry-meta-tags a {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+/**
+* 7.0 Author-Bio Info
+* -----------------------------------------------------------------------------
+*/
+.author-avatar.pull-left, .media > .pull-left {
+    float: right !important;
+    margin-right: 0 !important;
+    margin-left: 10px;
+}
+
+.author-avatar.pull-right, .media > .pull-right {
+    float: left !important;
+    margin-left: 0 !important;
+    margin-right: 10px;
+}
+
+.author-info .author-bio .author-link {
+    display: inline-block;
+}
+
+.author-info .author-bio .author-link .fa-angle-double-right:before {
+    content: "\f100";
+}
+
+/**
+* 8.0 Comments
+* -----------------------------------------------------------------------------
+*/
+.comment-list.media-list {
+    padding-right: 0;
+}
+
+.comment-list .comment-body .comment-meta, .comment-list .comment-body .comment-meta a {
+    display: inline-block;
+}
+
+/**
+* 9.0 Comments Form
+* -----------------------------------------------------------------------------
+*/
+.comment-form .logged-in-as a {
+    display: inline-block;
+}
+
+/**
+* 10.0 Posts/Pages Paging Navigation
+* -----------------------------------------------------------------------------
+*/
+.pagination, .pager {
+    padding-right: 0px;
+}
+
+.pager li.previous, .pager .previous > a {
+    float: right;
+}
+
+.pager li.next, .pager .next > a {
+    float: left;
+}
+
+.pagination li > a, .pagination li > span, .pager li > a {
+    margin: 0;
+}
+
+.post-navigation .pager li.previous {
+    text-align: right;
+}
+
+.post-navigation .pager li.next {
+    text-align: left;
+}
+
+.post-navigation .pager li.previous > a {
+    margin: 0;
+}
+
+.post-navigation .pager li.next > a {
+    margin: 0;
+}
+
+.pager li.previous > a .fa-arrow-left:before {
+    content: "\f061";
+}
+
+.pager li.next > a .fa-arrow-right:before {
+    content: "\f060";
+}
+
+/**
+* 11.0 Widgets
+* -----------------------------------------------------------------------------
+*/
+/**
+* 11.1 Widgets List Items
+* -----------------------------------------------------------------------------
+*/
+.widget ul li span.post-count {
+    float: left;
+}
+
+.widget ul li li {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+/**
+* 11.2 Tagcloud Widget
+* -----------------------------------------------------------------------------
+*/
+.widget .tagcloud a {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+/**
+* 11.3 Instagram Widget
+* -----------------------------------------------------------------------------
+*/
+.widget.widget_instagram .instagram-item.alt-l {
+    margin-left: 1%;
+    margin-right: 0;
+}
+
+.widget.widget_instagram .instagram-item.alt-r {
+    margin-right: 1%;
+    margin-left: 0;
+}
+
+/**
+* 11.4 Twitter Widget
+* -----------------------------------------------------------------------------
+*/
+.widget.widget_twitter ul li {
+    padding: 10px 30px 10px 0;
+}
+
+.widget.widget_twitter ul li:before {
+    margin-right: -30px;
+    margin-left: 0;
+}
+
+/**
+* 11.5 RSS Feed Widget
+* -----------------------------------------------------------------------------
+*/
+.widget.widget_rss .widget-title a:before {
+    content: "";
+}
+
+.widget.widget_rss .widget-title a:after {
+    font-family: 'FontAwesome';
+    content: "\f09e";
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+/**
+* 11.6 Related Posts Widget
+* -----------------------------------------------------------------------------
+*/
+.widget.widget_related_posts h3.widget-title {
+    float: right;
+}
+
+.widget.widget_related_posts .related-item {
+    float: right;
+}
+
+/**
+* 11.7 Calendar Widget
+* -----------------------------------------------------------------------------
+*/
+.widget.widget_calendar #calendar_wrap table caption {
+    text-align: right;
+}
+
+.widget.widget_calendar #calendar_wrap table tfoot #prev {
+    text-align: right;
+}
+
+.widget.widget_calendar #calendar_wrap table tfoot #next {
+    text-align: left;
+}
+
+/**
+* 12 Dropmenu Navigation
+* -----------------------------------------------------------------------------
+*/
+.nav-dropdown-menu li li a {
+    background: lighten(#222222, 3%);
+    border-left: 0;
+    border-right: 5px solid #000000;
+}
+
+/**
+* 13 Scroll-up Arrow Link
+* -----------------------------------------------------------------------------
+*/
+.scrollup {
+    right: auto;
+    left: 15px;
+}

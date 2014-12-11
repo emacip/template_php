@@ -1,0 +1,33 @@
+body{background-image: url(http://192.168.1.203:9092/wp-content/themes/baseblog/assets/images/pattern3.png);background-repeat: repeat;color:#4e4e4e;font-family:Raleway;font-size:16px;font-weight:300;}
+@media (max-device-width: 640px) and (min-device-width: 180px){
+body{
+background-attachment: scroll;background-size: auto;background-repeat: repeat;}
+}
+h1{font-family:Raleway;font-weight:700;color:#222222;}
+h2{font-family:Raleway;font-weight:700;color:#222222;}
+h3{font-family:Raleway;font-weight:700;color:#222222;}
+h4{font-family:Raleway;font-weight:700;color:#222222;}
+h5{font-family:Raleway;font-weight:700;color:#222222;}
+h6{font-family:Raleway;font-weight:700;color:#222222;}
+@media (min-width: 992px){
+h1{font-size:40px;}
+h2{font-size:36px;}
+h3{font-size:32px;}
+h4{font-size:28px;}
+h5{font-size:24px;}
+h6{font-size:20px;}
+}
+h1 > a{color:#222222;}
+h2 > a{color:#222222;}
+h3 > a,table caption{color:#222222;}
+h4 > a{color:#222222;}
+h5 > a{color:#222222;}
+h6 > a{color:#222222;}
+#header{background-color:rgba(242,112,47,1)}
+.navbar-wrapper > .navbar{background-color:#ffffff}
+#header .logo .logo-text,#header .logo .logo-text a{font-family:Raleway;font-weight:700;font-size:36px;color:#ffffff;text-transform:none;}
+#header.header-fixed .logo .logo-text,#header.header-fixed .logo .logo-text a{font-family:Raleway;font-weight:700;font-size:24px;color:#ffffff;text-transform:none;}
+#header .logo .logo-tagline, #header .nav-search-bar #lnk-show-search, #header .nav-search-bar .navbar-toggle {color:#ffffff;}
+#header .logo .logo-tagline {border-left-color:#ffffff;}
+.rtl #header .logo .logo-tagline {border-right-color:#ffffff;}
+.nav-dropdown-menu{font-family:Raleway;font-weight:300;font-size:18px;text-transform:uppercase;}

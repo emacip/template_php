@@ -1,0 +1,61 @@
+/*
+Theme Name: baseblog
+Theme URI: http://demo.inabrains.com/baseblog
+Author: INA Brains
+Author URI: http://www.inabrains.com/
+Description: Baseblog Responsive WordPress Personal Blog Theme with unlimited theme options to create blogs for different categories.
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: responsive-layout
+Text Domain: baseblog
+*/
+/** 
+* WordPress Core
+* Wordpress Core CSS, do not remove it
+* --------------------------------------------------------------
+*/
+.alignnone {
+}
+
+.aligncenter, div.aligncenter {
+}
+
+.alignright {
+}
+
+.alignleft {
+}
+
+.aligncenter {
+}
+
+a img.alignright {
+}
+
+a img.alignnone {
+}
+
+a img.alignleft {
+}
+
+a img.aligncenter {
+}
+
+.wp-caption {
+}
+
+.wp-caption.alignnone {
+}
+
+.wp-caption.alignleft {
+}
+
+.wp-caption.alignright {
+}
+
+.wp-caption img {
+}
+
+.wp-caption p.wp-caption-text {
+}

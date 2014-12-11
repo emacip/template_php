@@ -1,0 +1,134 @@
+.admin-color-fresh .ui-datepicker-header {
+    background-color: #cccccc;
+}
+
+.wrap .inafx.redux-container {
+    margin-right: 20px;
+}
+
+.inafx.redux-container {
+    border: 0px solid #99cccc;
+    background: #f1f1f1;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+.inafx.redux-container #redux-header {
+    border-bottom-color: #006699;
+}
+
+.inafx.redux-container .redux-group-tab-link-li.active a, .inafx.redux-container .redux-group-tab-link-li.active a.custom-tab {
+    border-right-color: #fff;
+    width: auto;
+    background: #fff;
+}
+
+.inafx.redux-container .redux-group-tab-link-li.active a:hover {
+    background-color: #fff;
+}
+
+.inafx.redux-container .redux-group-tab-link-li a, .inafx.redux-container .redux-group-tab-link-li a.custom-tab {
+    background-color: #006699;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    padding: 20px 10px;
+    font-weight: 300;
+    border-bottom-color: #99cccc;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+.inafx.redux-container .redux-group-tab-link-li a:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.inafx.redux-container .redux-group-tab-link-li a i {
+    font-size: 14px;
+}
+
+.inafx.redux-container .redux-group-tab-link-li a span {
+    padding-left: 22px;
+}
+
+.inafx.redux-container .redux-group-tab-link-li.active:last-child a {
+    border-bottom-color: #fff;
+}
+
+.inafx.redux-container .redux-sidebar {
+}
+
+.inafx.redux-container .redux-sidebar .redux-group-menu {
+}
+
+.inafx.redux-container #redux-sticky #info_bar, .inafx.redux-container #redux-footer-sticky #redux-footer {
+    border: none;
+    padding: 20px 6px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    background: #fff !important;
+}
+
+.inafx.redux-container #redux-footer-sticky #redux-footer {
+    background: #f1f1f1 !important;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+
+.inafx.redux-container #redux-sticky #info_bar {
+    padding: 10px 6px;
+    border-bottom: 3px solid #006699;
+}
+
+.inafx.redux-container #redux-footer-sticky, .inafx.redux-container #redux-sticky {
+    
+}
+
+.inafx.redux-container .redux-main {
+    border-left-color: #fff;
+    background: #fff;
+    border-top: 1px solid #fff;
+}
+
+.inafx.redux-container .redux-action_bar .button {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    line-height: 26px;
+    height: auto;
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+
+.inafx.redux-container .redux-action_bar .button-primary {
+    background: #3399cc;
+}
+
+.inafx.redux-container .redux-action_bar .button:hover {
+    background: #ddd;
+}
+
+.inafx.redux-container .redux-action_bar .button-primary:hover {
+    background: #000;
+}
